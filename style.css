@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+:root{
+   --cor-primaria:#bc63a9;
+   --cor-secundaria:#c21b69;
+   --cor-destaque:#fe93ec;
+}
+
 body{
-background-color: rgb(0, 0, 0);
-color: hotpink;
+    font-family: "Abel", sans-serif;
+    background-color: black;
+    color: hotpink;
+}
+h2,h3,h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
 
+footer a{
+    color: var(--cor-secundaria);
+}
 
+footer a:hover{
+    color: var(--cor-destaque);
 }
